@@ -2,16 +2,36 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Login</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="Portifolio">
         <form action="">
             <h1>Site Login</h1>
-            <div class="Input one"></div>
-                <input placeholder="Usuário" type="email" required> 
+            <div class="Input box">
+                <input placeholder="Usuário" type="email">
+                <i class='bx bx-user'></i>
             </div>
+             <div class="Input box">
+                <input placeholder="Senha" type="password">
+                <i class='bx bx-lock-alt'></i>
+            </div>
+
+            <div class="lembrar senha">
+                <input type="checkbox" id="remember">
+                <label for="remember">Lembrar a minha senha</label>
+                <a href="#">Esqueci a senha</a>
+            </div>
+            <button type="submit">Entrar</button>
+            <div class="cadastro"> 
+                <p>Ainda não tem uma conta? <a href="#">Cadastre-se</a></p>
+            </div>
+
+
+
         </form>
         
 </body>
